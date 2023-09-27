@@ -11,6 +11,4 @@ function Invoke-Pyenv {
     pyenv @args
 }
 Set-Alias -Name pyenv -Value Invoke-Pyenv
-
-
-Export-ModuleMember -Function * -Alias *
+Export-ModuleMember -Function Invoke-Pyenv -Alias pyenv
